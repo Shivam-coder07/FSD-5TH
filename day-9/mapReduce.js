@@ -46,3 +46,5 @@ const data = [
 
 const mapData = data.map((ele) => ele.productName);
 console.log(mapData);
+const filterDat = data.filter((ele)=> ele.price <= 600)
+console.log(filterDat)
